@@ -12,17 +12,20 @@
         <p class="title">BMI CALCULATOR</p>
         <div class="container">
             <div class="container__left">
-                <label class="textweight" for="weight">Weight [m]</label>
+                <label class="textweight" for="weight">Weight [kg]</label>
                 <input id="weight" type="number">
-                <label class="textheight" for="height">Height [kg]</label>
+                <label class="textheight" for="height">Height [m]</label>
                 <input id="height" type="number">
                 <button class="calculate">CALCULATE BMI</button>
                 <button class="restart">RESTART</button>
             </div>
             <div class="container__right">
                 <p class="text">Your BMI (Body Mass Index) is:</p>
-                <div class="quantitative_result">15.2</div>
-                <div class="qualitative_result">Extremely Obese</div>
+                <div class="results">
+                    <div class="quantitative_result"></div>
+                    <div class="qualitative_result"></div>
+                </div>
+                <div class="recommendation"></div>
                 <img src="./images/wfwfes.png" alt="">
             </div>
         </div>
