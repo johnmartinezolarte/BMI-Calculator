@@ -8,7 +8,7 @@
     border: solid 3px black;
     width: 900px;
     height: 650px;
-    margin: 130px auto;
+    margin: 80px auto;
     display: flex;
     flex-direction: column;
 }
@@ -67,17 +67,18 @@ button{
     color: white;
     font-size: 18px;
     font-weight: 600;
-    width: 38%;
-    height: 6%;
 }
 .calculate{
     margin-top: 15%;
     background-color: darkblue;
+    width: 39%;
+    height: 7%;
 }
 .restart{
     width: 25%;
     background-color: crimson;
     margin-top: 5%;
+    height: 6%;
 }
 .text{
     font-size: 25px;
@@ -119,4 +120,11 @@ button{
 img{
     width: 420px;
     margin-top: 8%;
+}
+.attribution{
+    font-size: 17px;
+    text-align: center;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
 }

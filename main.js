@@ -10,7 +10,7 @@ const resultRecommendation=tag('.recommendation');
 let bmi, weightNormalMin, weightNormalMax;
 
 btnCalculate.addEventListener('click', ()=>{(weight.value&&height.value)?calculateBmi():location.reload()});
-/* btnCalculate.addEventListener('click', ()=>{(weight.value&&height.value)?calculateBmi(weight.value,height.value):location.reload()}); */    /*PROBAR*/
+
 btnRestart.addEventListener('click', refresh);
 
 function refresh(){
